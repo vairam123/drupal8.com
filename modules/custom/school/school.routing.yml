@@ -1,0 +1,21 @@
+school.student_form:
+  path: /add-student-info
+  defaults:
+    _form: 'Drupal\school\Form\StudentForm'
+    _title: 'Add Student Information'
+  requirements:
+    _permission: 'access content'
+school.update_student:
+  path: /update-student-info
+  defaults:
+    _form: 'Drupal\school\Form\UpdateStudentForm'
+    _title: 'Update Student Info'
+  requirements:
+    _permission: 'access content'
+school.add_student_role:
+  path: /add-student-role-for-user/{userid}
+  defaults:
+    _controller: 'Drupal\school\Controller\SchoolController::addStudentRole'
+    _title: 'Add Student Role'
+  requirements:
+    _permission: 'access content'
