@@ -1,0 +1,6 @@
+name: 'dynamic User'
+description: 'Test module for dynamic user creation Drupal8'
+type: module
+core: 8.x
+varsion: 0.1-dev
+package: Dynamicuser

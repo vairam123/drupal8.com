@@ -1,0 +1,25 @@
+name : Training Theme  
+description: 'It is used to practice the drupal 8 theming'
+# core: 8.x 
+type: theme 
+base theme: classy
+
+#Libraries
+libraries:
+  - yg_simple/global-style
+  - yg_simple/fontawesome
+
+#Regions
+regions:
+  header: 'Header'
+  primary_menu: 'Primary Menu'
+  content: 'Content'
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'
+  footer_menu: 'Footer Menu'
+
+
+version: '8.x-1.0'
+core: '8.x'
+project: 'yg_simple'
+datestamp: 1538838504

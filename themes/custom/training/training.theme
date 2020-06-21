@@ -1,0 +1,15 @@
+<?php
+
+
+use Drupal\Component\Utility\Html;
+
+
+function training_preprocess(&$variables, $hook) {
+  static $hooks;
+  $variables['custom_text'] = 'Drupal Practice';
+
+}
+
+function training__preprocess_image() {
+  
+}

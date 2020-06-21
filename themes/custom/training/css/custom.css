@@ -1,0 +1,259 @@
+.navbar-brand {
+    padding: 10.5px 20px;
+}
+.region.region-footer-menu h2 {
+    color: #fff;
+    font-size: 20px;
+}
+#page-not-found {
+    padding: 100px 0
+}
+.section-title h1 {
+    color: #191919;
+    font-size: 145px;
+    font-weight: 600
+}
+.section-title {
+    border: 1px solid #110c0b;
+    max-width: 42%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 15px
+}
+.section-title h2 {
+    color: #da0f0f;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 18px
+}
+.page-not-found-text {
+    padding: 50px 0
+}
+.page-not-found-text .title {
+    padding: 15px 0;
+    font-size: 38px;
+    font-weight: 800
+}
+.page-not-found-text p {
+    padding: 0 0 40px
+}
+.page-not-found-text .enquiry-btn.custom-btn {
+    border-radius: 3px;
+    font-weight: 600
+}
+.fh5co-copyright.text-center p {
+    padding: 0px !important;
+    margin: 0px;
+    font-size: 85%;
+}
+ul.contextual-links li a {
+    color: #000 !important;
+}
+.btn-primary:hover {
+    background: #fff !important;
+    color: #000;
+    border: 2px solid #52d3aa;
+}
+ul.fh5co-social li a i:hover {
+    color: #333 !important;
+}
+.fh5co-intro.fh5co-table-cell p a:hover {
+    color: #66d8b4 !important;
+}
+a.enquiry-btn.custom-btn.wow.fadeInLeft {
+    background: #52d3aa;
+    color: #fff;
+    border: 2px solid #52d3aa;
+    padding: 7px 15px;
+}
+a.enquiry-btn.custom-btn.wow.fadeInLeft:hover {
+    background: #fff;
+    color: #000;
+    border: 2px solid #52d3aa;
+    padding: 7px 15px;
+}
+@media (min-width: 320px) and (max-width: 770px) {
+	.section-title h1 {
+	    font-size: 45px !important;
+	}
+}
+@media (min-width: 770px) and (max-width: 1000px) {
+	#fh5co-header nav li a {
+    	padding: 17px;
+    }	
+}    
+/*-------------- header section ----------------*/
+#fh5co-header {
+    padding: 5px 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    transition: all 0.5s;
+    z-index: 997;
+}
+#fh5co-header .contextual-links li a, #fh5co-header .contextual-links li a:hover {
+    padding: 5px 10px; 
+    color: #000;
+}  
+.nav.navbar-nav li a:hover, .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+	background: transparent; 
+}
+.sticky{
+	background-color: #333333;
+}
+span.icon-bar {
+    background-color: #fff;
+}
+#fh5co-header nav li {
+    display: block;
+}
+.fh5co-section p a.btn-primary {
+    margin-left: 1.1em !important;
+}
+.fh5co-check .field__item {
+    padding: 0 0 0 40px;
+    margin: 0;
+    list-style: none;
+    position: relative;
+}
+ul.fh5co-check .field__item:before {
+    font-family: 'icomoon';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: absolute;
+    left: 0;
+    top: .3em;
+    content: "\f00c";
+    color: #52d3aa;
+}
+/* User login form css*/
+#user-login {
+  max-width: 40%;
+  margin: auto;
+  padding: 20px 0px 40px;
+  border: 2px solid #f5f5f5;
+  margin-bottom: 90px;
+  overflow: hidden;
+}
+.login-text .form-group input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+}
+.login-text a {
+  color: #113054;
+}
+.login-button input {
+  padding: 5px 20px 5px 20px;
+  font-weight: 600;
+  background: #52d3aa;
+  color: #fff;
+  border: 2px solid #52d3aa;
+}
+.login-button input:hover {
+  padding: 5px 20px 5px 20px;
+  font-weight: 600;
+  background: #fff;
+  color: #000;
+  border: 2px solid #52d3aa;
+}
+.login-button , #user-register-form .form-actions ,#user-pass .form-actions{
+  text-align: center;
+}
+#user-register-form , #user-pass{
+  max-width: 50%;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border: 2px solid #f5f5f5;
+  padding: 20px 20px 40px;
+  overflow: hidden;
+}
+#user-register-form .js-form-item {
+  margin-bottom: 20px !important;
+}
+#user-register-form .js-form-item input, #user-pass .js-form-item input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+}
+#user-register-form .form-actions input , #user-pass .form-actions input {
+  padding: 5px 20px 5px 20px;
+  font-weight: 600;
+  background: #52d3aa;
+  color: #fff;
+  border: 2px solid #52d3aa;
+}
+#user-register-form .form-actions input:hover , #user-pass .form-actions input:hover {
+  padding: 5px 20px 5px 20px;
+  font-weight: 600;
+  background: #fff;
+  color: #000;
+   border: 2px solid #52d3aa;
+}
+@media only screen and (max-width: 610px) {
+#user-login {
+  max-width: 95% !important;
+  margin: auto;
+  padding: 20px 0px 40px;
+  border: 2px solid #f5f5f5;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  overflow: hidden;
+}
+#user-register-form , #user-pass{
+  max-width: 95% !important;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border: 2px solid #f5f5f5;
+  padding: 20px 20px 40px;
+  overflow: hidden;
+}
+}
+@media (min-width: 768px) and (max-width: 992px) {
+#user-login {
+  max-width: 95% !important;
+  margin: auto;
+  padding: 20px 0px 40px;
+  border: 2px solid #f5f5f5;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  overflow: hidden;
+}
+#user-register-form , #user-pass{
+  max-width: 95% !important;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border: 2px solid #f5f5f5;
+  padding: 20px 20px 40px;
+  overflow: hidden;
+}
+}
+
+/* End  User login form css*/
+
+article.contextual-region.profile {
+   padding:200px 108px 100px;
+}
+.fh5co-copyright p{
+ font-size: 17px !important;
+}
+
+.toolbar-fixed.user-logged-in #fh5co-header {
+    z-index: 100;
+    top: 140px;
+}
+
+.toolbar-fixed.user-logged-in #fh5co-header.sticky {
+    background-color: #333333;
+    top: 80px !important;
+}

@@ -1,0 +1,21 @@
+config_example.config_example_add:
+  path: /custom-config
+  defaults:
+    _form: 'Drupal\config_example\Form\ConfigurationSetting'
+    _title: 'Add Custom Configuration'
+  requirements:
+    _permission: 'access content'
+config_example.add_user:
+  path: /custom/register
+  defaults:
+    _form: 'Drupal\config_example\Form\NewUser'
+    _title: 'Add New User'
+  requirements:
+    _permission: 'access content'
+config_example.edit_user:
+  path: /custom/{config_id}/edit
+  defaults:
+    _form: 'Drupal\config_example\Form\EditUser'
+    _title: 'Edit User'
+  requirements:
+    _permission: 'access content'

@@ -1,0 +1,4 @@
+services:
+  user.custom.service:
+    class: Drupal\config_example\Services\UserService
+    arguments: ['@database']

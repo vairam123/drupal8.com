@@ -1,0 +1,7 @@
+dynamicuser:
+  path: '/dynamic-user'
+  defaults:
+    _controller: '\Drupal\dynamicuser\Controller\DynamicuserController::home'
+    _title: 'User Created Dynamically'
+  requirements:
+    _permission: 'access content'
